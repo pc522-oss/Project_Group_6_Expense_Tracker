@@ -1,0 +1,147 @@
+/* Core Style */
+
+body {
+  background: #f1f5f9;
+  font-family: Inter, sans-serif;
+  color: #1e293b;
+  margin: 0;
+}
+
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.navbar-custom {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.navbar-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.create-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+}
+
+/* Expense Table */
+
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.expense-table th {
+  background: #f8fafc;
+  color: #475569;
+  text-align: left;
+  padding: 12px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.expense-table td {
+  padding: 14px 12px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.expense-table tr:hover {
+  background: #f8fafc;
+}
+
+.category-badge {
+  display: inline-block;
+  background: #ede9fe;
+  color: #6366f1;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.category-food {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.category-transportation {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.category-shopping {
+  background: #f3e8ff;
+  color: #7e22ce;
+}
+
+.category-entertainment {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.category-utilities {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.category-other {
+  background: #e2e8f0;
+  color: #475569;
+}
+
+/* Filter Bar */
+
+.filter-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.filter-row .form-control {
+  margin-bottom: 0;
+}
+
+/* Edit Modal */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-modal {
+  background: white;
+  width: 500px;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
